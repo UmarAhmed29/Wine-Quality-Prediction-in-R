@@ -1,3 +1,5 @@
+# in this file all the operations related to predictions are carried out by taking the values of different properties of wine from the user.
+# all the graphical representations such as bar graphs, charts, pie charts are build in this file.
 library(shiny)
 library(randomForest)
 wine<-read.table("C:/Users/UMAR/Documents/winequality-white.csv",sep=";",header=T)
