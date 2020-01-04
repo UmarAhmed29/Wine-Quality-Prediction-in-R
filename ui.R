@@ -1,4 +1,5 @@
 # this file is for the front-end that will be displayed to the user on the screen.
+# in this project I have used shinyUI package of R for building the UI for user.
 # this includes HTML input fields and slider inputs for taking the input from the users for predicting the quality of wine.
 library(shiny)
 shinyUI(navbarPage("Wine Quality Estimator",
